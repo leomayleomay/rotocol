@@ -4,9 +4,9 @@ require File.expand_path('../lib/rotocol/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Hao Liu"]
   gem.email         = ["leomayleomay@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Bring the Objective-C like protocol to Ruby}
+  gem.summary       = %q{}
+  gem.homepage      = "https://github.com/leomayleomay/rotocol"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
